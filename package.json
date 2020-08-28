@@ -1,0 +1,46 @@
+{
+  "name": "get-file-info",
+  "version": "1.0.0",
+  "description": "A NPM package for getting basic file information like name, size, last modified and type.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deanilvincent/get-file-info.git"
+  },
+  "keywords": [
+    "file info",
+    "file-info",
+    "get-file-info",
+    "get file info",
+    "file",
+    "info",
+    "information",
+    "file-information",
+    "file information",
+    "file-size",
+    "file size",
+    "file-name",
+    "file name",
+    "file-lastmodified",
+    "file lastmodified",
+    "file-type",
+    "file type",
+    "type",
+    "name",
+    "lastmodified",
+    "size"
+  ],
+  "author": "deanilvincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanilvincent/get-file-info/issues"
+  },
+  "homepage": "https://github.com/deanilvincent/get-file-info#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
