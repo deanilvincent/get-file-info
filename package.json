@@ -1,6 +1,6 @@
 {
   "name": "get-file-info",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A NPM package for getting basic file information like name, size, last modified and type.",
   "main": "index.js",
   "scripts": {
