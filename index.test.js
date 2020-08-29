@@ -13,12 +13,12 @@ let data = [
 ];
 
 // default expected data
+const expectedLastModifiedDate = new Date("Fri Aug 28 2020 13:44:02 GMT+0800 (Philippine Standard Time)")
 let expected = {
   name: "README.md",
   size: "1.2 MB",
   type: "Unrecognized file.",
-  lastModifiedDate:
-    "Fri Aug 28 2020 13:44:02 GMT+0800 (Philippine Standard Time)",
+  lastModifiedDate: `${expectedLastModifiedDate}`,
 };
 
 test("Should return valid data result", () => {
