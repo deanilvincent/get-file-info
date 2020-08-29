@@ -5,7 +5,7 @@ let data = [
   {
     lastModified: 1598593442069,
     lastModifiedDate:
-      "Fri Aug 28 2020 13:44:02 GMT+0800 (Philippine Standard Time)",
+      "Fri Aug 28 2020 05:44:02 GMT+0000 (Coordinated Universal Time)",
     name: "README.md",
     size: 1234567, // 1.2 MB
     type: "",
@@ -13,12 +13,11 @@ let data = [
 ];
 
 // default expected data
-const expectedLastModifiedDate = new Date("Fri Aug 28 2020 13:44:02 GMT+0800 (Philippine Standard Time)")
 let expected = {
   name: "README.md",
   size: "1.2 MB",
   type: "Unrecognized file.",
-  lastModifiedDate: `${expectedLastModifiedDate}`,
+  lastModifiedDate: "Fri Aug 28 2020 05:44:02 GMT+0000 (Coordinated Universal Time)",
 };
 
 test("Should return valid data result", () => {
@@ -67,7 +66,7 @@ test("Should return 'Unrecognized file' for type if file type is empty", () => {
 
 test("Should return valid last modified date", () => {
   expect(fileInfo.get(data).lastModifiedDate).toStrictEqual(
-    "Fri Aug 28 2020 13:44:02 GMT+0800 (Philippine Standard Time)"
+    "Fri Aug 28 2020 05:44:02 GMT+0000 (Coordinated Universal Time)"
   );
 });
 

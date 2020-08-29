@@ -16,11 +16,6 @@ module.exports = {
         file.size = 0;
       }
 
-      const lastModifiedDate = new Date(file.lastModifiedDate);
-      if (lastModifiedDate) {
-        file.lastModifiedDate = `${lastModifiedDate}`;
-      }
-
       return {
         name: file.name ? file.name : "Unnamed.",
         size: file.size,
