@@ -1,7 +1,7 @@
-[![Build Status](https://dev.azure.com/dv-github-repos/get-file-info/_apis/build/status/deanilvincent.get-file-info?branchName=master)](https://dev.azure.com/dv-github-repos/get-file-info/_build/latest?definitionId=2&branchName=master)
-
 # Overview
 A NPM package for getting basic file information like name, size, last modified and type.
+
+[![Build Status](https://dev.azure.com/dv-github-repos/get-file-info/_apis/build/status/deanilvincent.get-file-info?branchName=master)](https://dev.azure.com/dv-github-repos/get-file-info/_build/latest?definitionId=2&branchName=master)
 
 # Installation
 
