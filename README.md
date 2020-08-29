@@ -24,7 +24,7 @@ fileInputChange(attach){
     }
 }
 ```
-Note: This only works for single attachment only.
+Note: This only works for single attachment in a input file type (for now).
 
 # Additional info
 
